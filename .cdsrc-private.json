@@ -15,6 +15,21 @@
         "vcap": {
           "name": "db"
         }
+      },
+      "auth": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+          "org": "3b9dadadtrial",
+          "space": "dev",
+          "instance": "MyHANAApp-auth",
+          "key": "default",
+          "resolved": false
+        },
+        "kind": "xsuaa-auth",
+        "vcap": {
+          "name": "auth"
+        }
       }
     }
   }
